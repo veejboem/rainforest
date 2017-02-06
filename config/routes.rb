@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-
-  # get 'products/:id/edit' => "products#edit", as: "edit_product"
+root 'products#index'
 
   resources :products
 end

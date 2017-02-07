@@ -1,8 +1,10 @@
-<%= @product.formatted_price%>
-<%= @product.name%>
-<%= @product.description%>
+
 
 <h3>Reviews</h3>
+
+<%= @product.name%>,
+<%= @product.description%>,
+$<%= @product.formatted_price%>
 
  <p>Reviews for <%= @product.name %></p>
 
